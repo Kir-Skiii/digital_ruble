@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1445px;
+}
+.container {
+    margin: 0 auto;
+    /* width: 1200px; */
+    font-family: 'Montagu Slab', serif;
+}
+.header {
+    margin-bottom: 75px;
+}
+.hh1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hdr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.himg {
+    width: 350px;
+    height: 350px;
+    
+}
+.hp {
+    margin: 40px;
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+}
+.main {
+    background-color: #F6F6F6;
+    color: #070707;
+    margin-bottom: 70px;
+}
+.hh2 {
+    padding-right: 60px;
+}
+.mp1 {
+    font-size: 20px;
+    margin-bottom: 75px;
+}
+.advantages {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gov{
+    width: 500px;
+}
+.coun {
+    padding-left: 20px;
+    width: 500px;
+}
+.peo {
+    width: 500px;
+}
+.mp2{
+    font-size: 20px;
+    margin-bottom: 75px;
+}
+
+@media screen and (max-width: 550px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 550px;
+    }
+    .container {
+        margin: 0 auto;
+        width: 500px;
+        font-family: 'Montagu Slab', serif;
+    }
+    .header{
+        margin-bottom: 120px;
+    }
+    .hh1{
+        font-size: 20px;
+    }
+    .gg{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main{
+        width: 420px;
+        margin-bottom: 120px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .advantages {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .gov{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .peo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .coun{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .mp2{
+        width: 400px;
+        font-size: medium;
+    }
+}
+
