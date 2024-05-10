@@ -34,6 +34,11 @@
     height: 250px;
     font-size: 20px;
 }
+.gg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .main {
     background-color: #F6F6F6;
     color: #070707;
@@ -83,7 +88,7 @@
     .hh1{
         font-size: 20px;
     }
-    .gg{
+    .hdr{
         display: flex;
         align-items: center;
         flex-direction: column;
