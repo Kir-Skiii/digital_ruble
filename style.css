@@ -71,6 +71,19 @@
     font-size: 20px;
     margin-bottom: 75px;
 }
+.mp3{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.h3 {
+    font-size: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 @media screen and (max-width: 550px) {
     .wrapper {
@@ -81,6 +94,9 @@
         margin: 0 auto;
         width: 500px;
         font-family: 'Montagu Slab', serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     .header{
         margin-bottom: 120px;
@@ -127,6 +143,19 @@
     .mp2{
         width: 400px;
         font-size: medium;
+    }
+    .mp3{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .h3 {
+        font-size: 11px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
